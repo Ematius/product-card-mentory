@@ -1,0 +1,97 @@
+/*style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a {  }
+  </>
+  style="background-color: green;"*/
+
+
+section,
+article,
+p,
+h1,
+div,
+img{
+  border: crimson solid 1px;
+
+}
+
+body{
+  
+    display: flex;
+    max-height: 100vh;
+    max-width: 100vw;
+    justify-content: center;
+    padding-top: 20vh;
+
+    section{
+      display: flex;
+      width: 650px;
+      height: 453px;
+
+        div{
+        width: 300px;
+        height: 500px;
+        
+
+      }
+    }
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+p,h1{
+  padding: 15px;
+}
+
+.button-buy{
+ 
+  padding: 15px;
+}
+/* 
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25vh;
+  
+}
+
+.container-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: be;
+  align-items: stretch;
+  gap: 10px;
+  max-width: 39vh;
+  max-height: 58vh;
+  
+}
+img{
+  display: flex;
+  max-width: 39vh;
+  max-height: 58vh;
+  
+
+}
+.description-product{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+} */
+
+
+/*com oincluir la imagen sin deformarla
+object-fit:cover enseñame lo que puedas 
+enseñarme esto hace un recorte intenado ocupar todo lo posible
+contain modifica la foto para que ocupa es espacio que pueda sin
+fill la encaja deformandola(defecto)
+
+es para que la imgen se ajuste
+*/
+
+
+
